@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SingleResponsiblitiyPrinciple
+namespace OpenClosedPrinciple
 {
     public class Policy
     {
