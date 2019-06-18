@@ -1,1 +1,22 @@
-﻿
+﻿Open / Closed Principle
+
+Software entitie (classes, modules, functions, etc.) Should be open for extesion, but closed for modification. 
+It should be possible to change the behavior of a method without editing its source code. 
+
+
+Open to extesion = new behavior can be added in the future, code that is closed to extesion has fixed behavior. 
+
+
+Closed to modification = Changes to source or binary code are not required. The only way to change the behavior of code that is closed
+to extension is to change the code itself.
+
+* One way to extension
+public class DoAnything<Targ, TResult>{
+private Func<Targ, TResult> _function;
+
+public TResult Execute(TArg a)
+{return _function}
+}
+
+* another way 
+using abstract class
