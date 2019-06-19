@@ -31,7 +31,7 @@ namespace OpenClosedPrinciple.OCP
         {
             try
             {
-                return (Rater)Activator.CreateInstance(Type.GetType($"OpenClosedPrinciple.{policy.Type}PolicyRater"),
+                return (Rater)Activator.CreateInstance(Type.GetType($"OpenClosedPrinciple.OCP.{policy.Type}PolicyRater"),
                     new object[] { engine });
             }
             catch (Exception e)

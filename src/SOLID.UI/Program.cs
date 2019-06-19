@@ -6,7 +6,10 @@ namespace SOLID.UI
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+            var ratingEngine= new OpenClosedPrinciple.OCP.RatingEngine();
+
+            ratingEngine.Rate();
         }
     }
 }

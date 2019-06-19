@@ -1,9 +1,4 @@
-﻿using Newtonsoft.Json;
-using Newtonsoft.Json.Converters;
-using System;
-using System.IO;
-
-namespace OpenClosedPrinciple.OCP
+﻿namespace OpenClosedPrinciple.OCP
 {
     public class RatingEngine
     {
@@ -18,7 +13,7 @@ namespace OpenClosedPrinciple.OCP
 
             var policyJson = FilePolicySource.GetPolicyFromSource();
 
-            var policy = JsonConvert.DeserializeObject<Policy>(policyJson, new StringEnumConverter());
+            var policy = JsonPolicySerializer.GetPolicyFromJsonString(policyJson);
 
             var rater = new RaterFactory().Create(policy, this);
 
