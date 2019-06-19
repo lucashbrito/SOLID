@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace OpenClosedPrinciple.OCP
+namespace LiskovSubstitutionPrinciple.LSP
 {
     public class LifePolicyRater: Rater
     {

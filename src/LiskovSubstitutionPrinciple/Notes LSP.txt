@@ -1,1 +1,21 @@
-﻿
+﻿* Liskov substitution principle
+	let be a property provable about objects x of type T. Then should be true for objects Y of type S where S is a subtype of T. 
+
+	Subtypes must be substitutable for their base types. 
+
+
+* Detecting LSP violations in your code 
+	Type checking with is or as in polymorphic code. 
+	Null checks 
+	NotImplementedException
+
+* Fixing LSP violations
+	Follow the 'tell, don't ask' principle
+	Minimize null checks with 
+		C# features
+		Guard clauses.
+		Null object desing pattern
+	Follow ISP and be sure to fully implement interfaces. 
+
+
+

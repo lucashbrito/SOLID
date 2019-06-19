@@ -2,7 +2,7 @@
 
 namespace LiskovSubstitutionPrinciple
 {
-    public class Class1
+    public class Start
     {
     }
 }
