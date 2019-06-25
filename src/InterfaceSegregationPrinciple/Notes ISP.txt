@@ -1,1 +1,20 @@
-﻿
+﻿* Interface Segregation principle
+	Clients should not be forced to depend on methods they do not use.
+
+	* More dependencies means
+		More coupling 
+		More brittle code
+		More difficult testing
+		More difficult deployments
+
+	* Detecting ISP violations in your code
+		Large interfaces
+		NotImplemntedException
+		Code Just a small subset of a larger interface
+
+	* Fixing ISP violations
+		Break up large interfaces into smaller one. 
+			Compose fat interafces from smaller oner for backward compatilibity. 
+		To address large interaces you dont control
+			create a small, cohesive interface
+			use the adapter design pattern so your code can work with the adapter
