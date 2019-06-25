@@ -18,3 +18,13 @@
 		To address large interaces you dont control
 			create a small, cohesive interface
 			use the adapter design pattern so your code can work with the adapter
+
+
+		Prefer small, cohesive interfaces to large, expansive ones. 
+
+Following ISP helps with SRP and LSP.
+
+Break up large interfaces by using
+	interface inheritance
+	the adpater desing pattern
+

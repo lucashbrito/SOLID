@@ -1,17 +1,1 @@
-﻿Pain Driven development (PDD) = write your simple code to solve the problem. Avoid premature optimization.
-If the current design is painful to work with, use principles to guide redesign. 
-
-
-Single responsiblity principle. Each software module should have one and onloy one reason to change. 
-
-We must to know how to separate 'what' for 'how'. 
-
-* Tight coupling. Binds tow or more details together in a way that's difficult to change. 
-* Loose coupling. Offers a modular wat to choose which details are involved in a particular operation.
-* Separtion of concerns. Programs should be separated into distinct sections, each addressing a separate concern, or set of information
-that affects the program. 
-
-* Responsibilities and testability
-	Difficult to test one responsibility in isolation. 
-		Test become Longer,  More complex, Brittle, Coupled to implementation.
-
+﻿
