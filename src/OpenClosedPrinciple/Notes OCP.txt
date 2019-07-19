@@ -15,7 +15,9 @@ public class DoAnything<Targ, TResult>{
 private Func<Targ, TResult> _function;
 
 public TResult Execute(TArg a)
-{return _function}
+{
+return _function
+}
 }
 
 * another way 

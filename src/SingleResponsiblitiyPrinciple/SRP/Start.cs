@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SingleResponsiblitiyPrinciple
+namespace SingleResponsiblitiyPrinciple.SRP
 {
     public class Start
     {

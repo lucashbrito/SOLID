@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SingleResponsiblitiyPrinciple
+namespace OpenClosedPrinciple.OCP
 {
     public class Start
     {

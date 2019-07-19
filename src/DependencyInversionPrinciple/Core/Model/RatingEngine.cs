@@ -1,8 +1,5 @@
 ﻿using DependencyInversionPrinciple.Core.Interfaces;
 using DependencyInversionPrinciple.Core.Raters;
-using DependencyInversionPrinciple.Infrastructure.Loggers;
-using DependencyInversionPrinciple.Infrastructure.PolicySources;
-using DependencyInversionPrinciple.Infrastructure.Serializers;
 
 namespace DependencyInversionPrinciple.Core.Model
 {
@@ -15,8 +12,7 @@ namespace DependencyInversionPrinciple.Core.Model
 
         public decimal Rating { get; set; }
 
-        public RatingEngine(ILoggerConsole logger, IPolicySource policySource, IPolicySerializer policySerializer,
-            RaterFactory raterFactory)
+        public RatingEngine(ILoggerConsole logger, IPolicySource policySource, IPolicySerializer policySerializer, RaterFactory raterFactory)
         {
             _logger = logger;
             _policySource = policySource;

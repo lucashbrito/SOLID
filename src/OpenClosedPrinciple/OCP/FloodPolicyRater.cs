@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace OpenClosedPrinciple.OCP
+﻿namespace OpenClosedPrinciple.OCP
 {
     public class FloodPolicyRater : Rater
     {

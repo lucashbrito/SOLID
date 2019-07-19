@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace LiskovSubstitutionPrinciple.LSP
+﻿namespace LiskovSubstitutionPrinciple.LSP
 {
    public class UnknownPolicyRater:Rater
     {

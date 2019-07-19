@@ -2,10 +2,11 @@
 
 namespace DependencyInversionPrinciple.Infrastructure.Loggers
 {
-    public  class NullLogger : ILoggerConsole
+    public class NullLogger : ILoggerConsole
     {
-        public  void Log(string message)
+        public void Log(string message)
         {
+            Log(message);
         }
     }
 }

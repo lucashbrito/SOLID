@@ -28,7 +28,6 @@
 
                 _engine.Rating = 900m;
             }
-
         }
     }
 }

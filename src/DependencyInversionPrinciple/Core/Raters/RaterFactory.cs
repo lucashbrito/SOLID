@@ -14,6 +14,7 @@ namespace DependencyInversionPrinciple.Core.Raters
             _logger = logger;
 
         }
+
         public Rater Create(Policy policy)
         {
             switch (policy.Type)
@@ -49,7 +50,6 @@ namespace DependencyInversionPrinciple.Core.Raters
                 _logger.Log(e.Message);
                 return null;
             }
-
         }
     }
 }

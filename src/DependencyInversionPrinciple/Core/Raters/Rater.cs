@@ -1,6 +1,5 @@
 ﻿using DependencyInversionPrinciple.Core.Interfaces;
 using DependencyInversionPrinciple.Core.Model;
-using DependencyInversionPrinciple.Infrastructure.Loggers;
 
 namespace DependencyInversionPrinciple.Core.Raters
 {

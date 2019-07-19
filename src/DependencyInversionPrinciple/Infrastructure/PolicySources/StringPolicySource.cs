@@ -10,5 +10,12 @@ namespace DependencyInversionPrinciple.Infrastructure.PolicySources
         {
             return PolicyString;
         }
+
+        public string SetPolicytFromSource(string source)
+        {
+            PolicyString = source;
+
+            return PolicyString;
+        }
     }
 }
